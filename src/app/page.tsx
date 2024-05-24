@@ -1,9 +1,15 @@
+import { Metadata } from "next";
 import Image from "next/image";
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: "Ukhang Marma - software developer",
+  description: "Ukhang Marma is a software developer based in Rangamati, Bangladesh.",
+};
+
+export default function HomePage() {
   return (
     <main className="">
-      hallo world
+      hello world
     </main>
   );
 }
