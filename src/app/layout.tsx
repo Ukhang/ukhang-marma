@@ -15,9 +15,9 @@ export default function RootLayout({
       <body className={inter.className}>
         <Toaster position="top-right" />
         <div className="w-full flex flex-col min-h-screen">
-          <Navbar/>
+          <Navbar />
           {children}
-          <Footer/>
+          <Footer />
         </div>
       </body>
     </html>
