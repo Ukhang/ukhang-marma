@@ -1,3 +1,4 @@
+import Hero from "@/components/Home/Hero";
 import { Metadata } from "next";
 import Image from "next/image";
 
@@ -8,5 +9,9 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
-  return <main className="">hello world</main>;
+  return (
+    <>
+      <Hero />
+    </>
+  );
 }

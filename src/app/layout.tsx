@@ -16,7 +16,7 @@ export default function RootLayout({
         <Toaster position="top-right" />
         <div className="w-full flex flex-col min-h-screen">
           <Navbar />
-          {children}
+          <main>{children}</main>
           <Footer />
         </div>
       </body>
