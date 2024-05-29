@@ -1,9 +1,11 @@
-import { Inter } from "next/font/google";
+import { Nunito_Sans } from "next/font/google";
 import "./globals.css";
 import { Toaster } from "sonner";
 import { Footer, Navbar } from "@/components/Global";
 
-const inter = Inter({ subsets: ["latin"] });
+const nunitoSans = Nunito_Sans({
+  subsets: ["latin"],
+});
 
 export default function RootLayout({
   children,
@@ -12,9 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={nunitoSans.className}>
         <Toaster position="top-right" />
-        <div className="w-full flex flex-col min-h-screen">
+        <div className="w-full flex flex-col min-h-screen bg-secondary">
           <Navbar />
           <main>{children}</main>
           <Footer />

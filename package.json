@@ -10,11 +10,16 @@
     "format:fix": "prettier --write --ignore-path .gitignore ."
   },
   "dependencies": {
+    "clsx": "^2.1.1",
+    "install": "^0.13.0",
     "next": "14.2.3",
+    "npm": "^10.8.0",
     "prettier": "^3.2.5",
     "react": "^18",
     "react-dom": "^18",
-    "sonner": "^1.4.41"
+    "react-icons": "^5.2.1",
+    "sonner": "^1.4.41",
+    "tailwind-merge": "^2.3.0"
   },
   "devDependencies": {
     "@types/node": "^20",
